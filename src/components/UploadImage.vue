@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <!-- <div>
     <div v-if="userProfile">
       <div>
         <img :src="userProfile.photoProfil" alt="Photo de profil" class="profile-image" />
@@ -29,6 +29,9 @@
     <div v-else>
       <p>Chargement du profil...</p>
     </div>
+  </div> -->
+  <div>
+    <h1 style="margin-top: 25vh;">En attente d'activation</h1>
   </div>
 </template>
 
